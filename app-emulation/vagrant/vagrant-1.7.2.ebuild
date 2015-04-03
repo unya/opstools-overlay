@@ -19,7 +19,6 @@ QA_PREBUILT="*"
 S=${WORKDIR}
 
 src_install() {
-              dodir /opt/vagrant
-              doins -r /opt/vagrant
-              dobin /usr/bin/vagrant
+              doins -r opt/vagrant
+              dobin usr/bin/vagrant
 }
