@@ -1,0 +1,26 @@
+#+TITLE: README
+#+AUTHOR: Paweł Lasek
+
+* Introduction
+
+  This overlay contains ebuilds to easily install Ops tools
+  distributed often through so called "Omnibus" packages, like
+  /Vagrant/, /ChefDK/, /Sensu/ etc. in order to simplify life for a
+  Gentoo-using sysadmin.
+
+* How to add it
+
+** Layman
+
+   Add this snippet to your local overlay list:
+
+#+BEGIN_SRC xml
+<repo priority="50" quality="experimental" status="unofficial">
+   <name>opstools</name>
+   <description>Overlay with omnibus-based ops tools</description>
+   <homepage>http://github.com/unya/opstools-overlay</homepage>
+   <source type="git">https://github.com/unya/opstools-overlay.git</source>
+</repo>
+#+END_SRC
+
+  Then add the overlay with 'layman -a opstools'
