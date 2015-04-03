@@ -16,4 +16,5 @@ KEYWORDS="amd64 x86"
 SLOT="0"
 RESTRICT="mirror strip splitdebug test"
 QA_PREBUILT="*"
+S=${WORKDIR}
 
