@@ -16,5 +16,5 @@ src_install() {
               insinto /opt
               insopts ""
               doins -r opt/chefdk
-              dosym opt/chefdk/bin/chef /usr/bin/chef
+              dosym /opt/chefdk/bin/chef /usr/bin/chef
 }
