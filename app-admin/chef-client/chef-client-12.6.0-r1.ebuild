@@ -23,10 +23,10 @@ src_install() {
               insinto /opt
               insopts ""
               doins -r opt/chef
-              dosym /opt/chef-client/bin/chef-client /usr/bin/chef-client
-              dosym /opt/chef-client/bin/chef-solo   /usr/bin/chef-solo
-              dosym /opt/chef-client/bin/chef-apply  /usr/bin/chef-apply
-              dosym /opt/chef-client/bin/ohai        /usr/bin/ohai
-              dosym /opt/chef-client/bin/chef-shell  /usr/bin/chef-shell
-              dosym /opt/chef-client/bin/knife       /usr/bin/knife
+              dosym /opt/chef/bin/chef-client /usr/bin/chef-client
+              dosym /opt/chef/bin/chef-solo   /usr/bin/chef-solo
+              dosym /opt/chef/bin/chef-apply  /usr/bin/chef-apply
+              dosym /opt/chef/bin/ohai        /usr/bin/ohai
+              dosym /opt/chef/bin/chef-shell  /usr/bin/chef-shell
+              dosym /opt/chef/bin/knife       /usr/bin/knife
 }
