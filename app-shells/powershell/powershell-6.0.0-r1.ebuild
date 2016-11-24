@@ -16,7 +16,7 @@ S=${WORKDIR}
 src_install() {
               insinto /opt
               insopts ""
-              doins -r opt/microsoft/powershell
+              doins -r opt/microsoft
               dosym /opt/microsoft/powershell/${POWERSHELL_VERSION}/powershell /usr/bin/powershell
               doman usr/local/share/man/man1/powershell.1.gz
               dodoc usr/share/doc/powershell/changelog.gz
