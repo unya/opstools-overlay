@@ -22,13 +22,12 @@ MY_PN="${PN/-bin/}"
 BASE_URI="https://downloads.slack-edge.com/linux_releases/${MY_PN}-desktop-${PV}-_arch_.deb"
 
 SRC_URI="
-	x86? ( ${BASE_URI/_arch_/i386} )
 	amd64? ( ${BASE_URI/_arch_/amd64} )
 "
 
 LICENSE="MIT Apache-2.0 BSD ISC LGPL-2 AFL-2.1 public-domain WTFPL-2 Artistic-2 no-source-code"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE=""
 RESTRICT="mirror"
 
