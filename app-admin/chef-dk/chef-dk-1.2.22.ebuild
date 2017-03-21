@@ -4,7 +4,8 @@ inherit unpacker eutils
 
 DESCRIPTION="Omnibus package with all tools for Chef Workstation"
 HOMEPAGE="https://downloads.chef.io/chef-dk/"
-SRC_URI="https://packages.chef.io/stable/ubuntu/12.04/chefdk_${PV}-1_amd64.deb"
+SRC_URI="https://packages.chef.io/files/stable/chefdk/${PV}/ubuntu/16.04/chefdk_${PV}-1_amd64.deb"
+
 
 KEYWORDS="amd64"
 SLOT="0"
