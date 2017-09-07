@@ -19,7 +19,14 @@ KEYWORDS="~amd64"
 IUSE=""
 RESTRICT="mirror"
 
-RDEPEND=""
+RDEPEND="net-proxy/torsocks
+dev-lang/python:3.4
+net-fs/sshfs
+net-misc/socat
+net-firewall/conntrack-tools
+net-libs/libnetfilter_conntrack
+virtual/ssh"
+
 DEPEND="${RDEPEND}"
 
 S="${WORKDIR}"
