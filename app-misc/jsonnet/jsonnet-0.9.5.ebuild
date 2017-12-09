@@ -19,7 +19,7 @@ DEPEND="
 RDEPEND="
 "
 src_compile() {
-	emake jsonnet
+	make -j1 jsonnet
 }
 src_install() {
 	dobin jsonnet
