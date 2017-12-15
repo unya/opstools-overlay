@@ -19,7 +19,7 @@ DEPEND="
 RDEPEND="
 "
 src_compile() {
-	emake 
+	make -j1
 }
 
 src_install() {
