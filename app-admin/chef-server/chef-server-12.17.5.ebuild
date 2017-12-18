@@ -6,7 +6,7 @@ DESCRIPTION="Omnibus package for chef-server"
 HOMEPAGE="https://downloads.chef.io/chef-server/"
 SRC_URI="
         amd64? (
-               https://packagecloud.io/chef/stable/packages/ubuntu/trusty/chef-server-core_${PV}-1_amd64.deb/download -> chef-server-core_${PV}-1_amd64.deb
+               https://packages.chef.io/files/stable/chef-server/12.17.5/ubuntu/16.04/chef-server-core_${PV}-1_amd64.deb -> chef-server-core_${PV}-1_amd64.deb
         )
 "
 
