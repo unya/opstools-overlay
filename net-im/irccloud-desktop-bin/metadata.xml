@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>pawel.lasek@gmail.com</email>
+		<name>Pawel Lasek</name>
+		<description>Proxy maintainer</description>
+	</maintainer>
+	<longdescription lang="en">
+    IRCCloud Desktop app
+	</longdescription>
+	<upstream>
+	<doc>http://desktop.irccloud.com/</doc>
+	</upstream>
+</pkgmetadata>
