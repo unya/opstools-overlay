@@ -57,14 +57,11 @@ pkg_preinst() {
 }
 
 src_install() {
-	insinto /usr/share/pixmaps
-	doins usr/share/pixmaps/${MY_PN}.png
-
-	newicon -s 512 usr/share/pixmaps/${MY_PN}.png ${MY_PN}.png
+  doins -r usr/share/icons/hicolor/*/apps/irccloud-desktop.png
 	domenu usr/share/applications/${MY_PN}.desktop
 
-	insinto /opt/${MY_PN}
-	doins -r usr/lib/${MY_PN}/*
+	insinto /opt/IRCCloud
+	doins -r opt/IRCCloud/*
 	fperms +x /opt/${MY_PN}/${MY_PN}
 	dosym /opt/${MY_PN}/${MY_PN} /usr/bin/${MY_PN}
 }
